@@ -20,7 +20,6 @@ public class _3LongestSubstringWithoutRepeatingCharacters
             int len = right - left + 1;
             maxLen = len > maxLen ? len : maxLen;
         }
-
         return maxLen;
     }
 }
