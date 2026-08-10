@@ -16,7 +16,7 @@ public class _704BinarySearch
             }
             if (nums[middle] > target)
             {
-                right = middle- 1;
+                right = middle - 1;
             }
             else
             {
